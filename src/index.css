@@ -67,21 +67,51 @@
 #sidebar{
     width: 20%;
     max-width: 150px;
-    min-width: 120px;
+    min-width: 150px;
     min-height: 400px;
     background-color: rgb(18, 46, 11);
+}
+#sidebarNav{
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
     padding-top: 20px;
+    padding-bottom: 5px;
 }
 
-#sidebar > * > *{
+#sidebarNav > * > *{
     text-decoration: none;
     color: #befa8d;
     font-family: monospace;
     font-weight: 600;
     font-size: large;
     padding-top: 20px;  
+}
+
+#inventory{
+    background: linear-gradient(to bottom, rgb(245, 199, 82), rgb(248, 227, 176) 15% 75%,rgb(211, 185, 118) );
+    margin:10px;
+    height:57%;
+    border-radius: 5px;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(34, 84, 22);
+}
+
+#inventory>.invRow{
+    border: #3b8329 solid 1px;
+    height:40px;
+    margin:3px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#inventory>.invRow>*{
+    border: #3b8329 solid 1px;
+    height:100%;
+    width: 40px;
 }
