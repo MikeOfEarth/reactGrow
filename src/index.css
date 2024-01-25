@@ -1,0 +1,87 @@
+.app{
+    background: linear-gradient(to bottom, #99f5f5,#3b8329);
+    color: white;
+    min-height: 900px ;
+    margin:-8px;
+  } 
+
+ #header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 46, 11);
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.me-auto > *{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #befa8d;
+    font-family: monospace;
+    font-size: 140%;
+}   
+
+#main{
+    border: #3b8329 solid 1px;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    min-width: 575;
+}
+
+#toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:55px;
+    width: 125px;
+    border: 3px solid rgb(53, 121, 36);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+#playable{
+    min-width: 400;
+}
+
+#playable>h2{
+    text-wrap: nowrap;
+    color: rgb(34, 84, 22);
+    font-family: monospace;
+    font-size: 23px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#sidebar{
+    width: 20%;
+    max-width: 150px;
+    min-width: 120px;
+    min-height: 400px;
+    background-color: rgb(18, 46, 11);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+
+#sidebar > * > *{
+    text-decoration: none;
+    color: #befa8d;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: large;
+    padding-top: 20px;  
+}
